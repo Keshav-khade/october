@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+py_env/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets (kabhi commit nahi karna)
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+
+# Postman exports (tokens/passwords ho sakte hain)
+postman/
+.postman/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
